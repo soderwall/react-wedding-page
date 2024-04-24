@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/react-wedding-page/static/css/main.f855e6bc.css",
-    "main.js": "/react-wedding-page/static/js/main.0f6dc814.js",
+    "main.css": "/react-wedding-page/static/css/main.88d13ac5.css",
+    "main.js": "/react-wedding-page/static/js/main.6b87aff5.js",
     "static/js/453.586ddade.chunk.js": "/react-wedding-page/static/js/453.586ddade.chunk.js",
-    "static/media/logo.svg": "/react-wedding-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/kyrkan.jpg": "/react-wedding-page/static/media/kyrkan.65f92b79be25fa18d72e.jpg",
+    "static/media/bg.png": "/react-wedding-page/static/media/bg.085c1d27108839038eed.png",
+    "static/media/02.png": "/react-wedding-page/static/media/02.70517211863efd2d4459.png",
+    "static/media/01.jpeg": "/react-wedding-page/static/media/01.6181debed6b2fc5ddb15.jpeg",
     "index.html": "/react-wedding-page/index.html",
-    "main.f855e6bc.css.map": "/react-wedding-page/static/css/main.f855e6bc.css.map",
-    "main.0f6dc814.js.map": "/react-wedding-page/static/js/main.0f6dc814.js.map",
+    "main.88d13ac5.css.map": "/react-wedding-page/static/css/main.88d13ac5.css.map",
+    "main.6b87aff5.js.map": "/react-wedding-page/static/js/main.6b87aff5.js.map",
     "453.586ddade.chunk.js.map": "/react-wedding-page/static/js/453.586ddade.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.0f6dc814.js"
+    "static/css/main.88d13ac5.css",
+    "static/js/main.6b87aff5.js"
   ]
 }
