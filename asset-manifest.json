@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c39c1b1.css",
-    "main.js": "/static/js/main.39ad1ada.js",
-    "static/js/453.586ddade.chunk.js": "/static/js/453.586ddade.chunk.js",
-    "static/media/kyrkan.jpg": "/static/media/kyrkan.65f92b79be25fa18d72e.jpg",
-    "static/media/bg.png": "/static/media/bg.085c1d27108839038eed.png",
-    "static/media/kalfarvei_37.png": "/static/media/kalfarvei_37.bd08ba50e24a391f330e.png",
-    "static/media/02.png": "/static/media/02.70517211863efd2d4459.png",
-    "static/media/01.jpeg": "/static/media/01.6181debed6b2fc5ddb15.jpeg",
-    "index.html": "/index.html",
-    "main.0c39c1b1.css.map": "/static/css/main.0c39c1b1.css.map",
-    "main.39ad1ada.js.map": "/static/js/main.39ad1ada.js.map",
-    "453.586ddade.chunk.js.map": "/static/js/453.586ddade.chunk.js.map"
+    "main.css": "/react-wedding-page/static/css/main.17994950.css",
+    "main.js": "/react-wedding-page/static/js/main.e3e2c224.js",
+    "static/js/453.586ddade.chunk.js": "/react-wedding-page/static/js/453.586ddade.chunk.js",
+    "static/media/kyrkan.jpg": "/react-wedding-page/static/media/kyrkan.65f92b79be25fa18d72e.jpg",
+    "static/media/bg.png": "/react-wedding-page/static/media/bg.085c1d27108839038eed.png",
+    "static/media/kalfarvei_37.png": "/react-wedding-page/static/media/kalfarvei_37.bd08ba50e24a391f330e.png",
+    "static/media/02.png": "/react-wedding-page/static/media/02.70517211863efd2d4459.png",
+    "static/media/01.jpeg": "/react-wedding-page/static/media/01.6181debed6b2fc5ddb15.jpeg",
+    "index.html": "/react-wedding-page/index.html",
+    "main.17994950.css.map": "/react-wedding-page/static/css/main.17994950.css.map",
+    "main.e3e2c224.js.map": "/react-wedding-page/static/js/main.e3e2c224.js.map",
+    "453.586ddade.chunk.js.map": "/react-wedding-page/static/js/453.586ddade.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c39c1b1.css",
-    "static/js/main.39ad1ada.js"
+    "static/css/main.17994950.css",
+    "static/js/main.e3e2c224.js"
   ]
 }
