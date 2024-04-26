@@ -31,7 +31,7 @@ i {
   text-align: center;
 }
 p {
-  font-size: 15px;
+  font-size: 18px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -104,17 +104,62 @@ hr {
 
 /* Header Section */
 .intro {
-  object-fit: cover;
-  object-position: center;
+  margin-top: 0;
+  padding-top: 0;
   display: table;
   width: 100%;
   padding: 0;
-  background: url('img/bg.png') center center no-repeat;
   background-color: #e5e5e5;
+}
+
+.intro-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-width {
+  width: 500px; /* Adjust as needed */
+  height: auto;
+}
+
+.circle-image {
+  margin-top: 20px;
+  object-fit: cover;
+  object-position: center;
+  width: 100vw; /* Adjust as needed */
+  height: 100vw; /* Adjust as needed */
+  background: url('img/bg.png') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  
+  margin-bottom: 20px; /* Optional: Adds some space between the image and the text */
+  /* Add these properties to center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff; /* Change the color as needed */
+  
+}
+
+h1.semi-transparent {
+  color: rgba(255, 255, 255, 0.7) !important; /* White text with 50% opacity */
+}
+/* This media query applies when the screen is 768px wide or wider */
+@media screen and (min-width: 768px) {
+  .circle-image {
+    width: 50vw; /* Half screen width on large screens */
+    height: 50vw; /* Half screen width on large screens */
+  }
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);

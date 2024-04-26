@@ -1,7 +1,12 @@
 {
   "name": "react-wedding-page",
   "version": "0.1.0",
-  "homepage": "https://soderwall.github.io/react-wedding-page",
+  "homepage": "http://strandenesskjold.se",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soderwall/react-wedding-page",
+    "otherUrl": "https://soderwall.github.io/react-wedding-page"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
