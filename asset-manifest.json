@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2d62a3d.css",
-    "main.js": "/static/js/main.5ccdbbd2.js",
+    "main.css": "/static/css/main.a4ee8a63.css",
+    "main.js": "/static/js/main.b5b984dc.js",
     "static/media/kyrkan.jpg": "/static/media/kyrkan.65f92b79be25fa18d72e.jpg",
     "static/media/bg.jpeg": "/static/media/bg.e9317dc3f3131d188e0c.jpeg",
     "static/media/kalfarvei_37.png": "/static/media/kalfarvei_37.bd08ba50e24a391f330e.png",
@@ -9,13 +9,12 @@
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/01.jpeg": "/static/media/01.6181debed6b2fc5ddb15.jpeg",
-    "static/media/church.svg": "/static/media/church.f0f3686fff1e8ee4ed850829e9916e40.svg",
     "index.html": "/index.html",
-    "main.a2d62a3d.css.map": "/static/css/main.a2d62a3d.css.map",
-    "main.5ccdbbd2.js.map": "/static/js/main.5ccdbbd2.js.map"
+    "main.a4ee8a63.css.map": "/static/css/main.a4ee8a63.css.map",
+    "main.b5b984dc.js.map": "/static/js/main.b5b984dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2d62a3d.css",
-    "static/js/main.5ccdbbd2.js"
+    "static/css/main.a4ee8a63.css",
+    "static/js/main.b5b984dc.js"
   ]
 }
