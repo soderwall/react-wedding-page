@@ -1,5 +1,5 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 
 @media screen and (max-width: 400px) {
   #intro,
@@ -10,11 +10,21 @@
     width: 111%;
   }
 }
+@keyframes pop {
+
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #root {
   background-color: #ffffff;
 }
 * {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 h2 {
   text-transform: uppercase;
@@ -74,21 +84,11 @@ hr {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-
-#bas h2 .text::after {
-  content: "";
-  display: block;
-  width: 100%; /* Full width of the text */
-  height: 0.1em; /* Relative to the text's font size */
-  background: black;
-  position: absolute;
-  bottom: 0; /* Positioned at the bottom of the text */
-  left: 0; /* Positioned at the left of the text */
+.pop {
+  animation: pop 3s 1;
 }
-
-#bas h2 .text {
-  position: relative;
-  display: inline-block; /* This is necessary for the ::after to work correctly */
+.popQuick {
+  animation: pop 2s 1;
 }
 #bas img {
   width: 520px;
@@ -133,14 +133,17 @@ body {
   margin-top: 20px;
   object-fit: cover;
   object-position: center;
-  width: 100vw; /* Adjust as needed */
-  height: 100vw; /* Adjust as needed */
-  background: url('img/bg.png') center center no-repeat;
+  width: 70vw; /* Adjust as needed */
+  height: 50vw; /* Adjust as needed */
+  max-width: 700px; /* Maximum width of 500 pixels */
+  max-height: 500px; /* Maximum height of 500 pixels */
+ 
+  background: url("img/bg.jpeg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+
   margin-bottom: 20px; /* Optional: Adds some space between the image and the text */
   /* Add these properties to center the text */
   display: flex;
@@ -148,17 +151,16 @@ body {
   align-items: center;
   text-align: center;
   color: #fff; /* Change the color as needed */
-  
 }
 
 h1.semi-transparent {
   color: rgba(255, 255, 255, 0.7) !important; /* White text with 50% opacity */
 }
 /* This media query applies when the screen is 768px wide or wider */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 857px) {
   .circle-image {
-    width: 50vw; /* Half screen width on large screens */
-    height: 50vw; /* Half screen width on large screens */
+    width: 95vw; /* Half screen width on large screens */
+    height: 67,86wv; /* Half screen width on large screens */
   }
 }
 .intro .overlay {
@@ -193,6 +195,7 @@ header .intro-text {
 #middag {
   padding: 100px 0;
   background: #f6f6f6;
+  overflow: auto;
 }
 #middag i {
   color: #e6e6e6;
@@ -209,22 +212,16 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#middag h2 .text::after {
-  content: "";
-  display: block;
-  width: 100%; /* Full width of the text */
-  height: 0.1em; /* Adjust as needed */
-  background: rgb(255, 255, 255);
-  position: absolute;
-  bottom: -10px; /* Adjust as needed */
-  left: 0; /* Positioned at the left of the text */
+
+.full-width-background {
+  height: 100%;
+  overflow: auto;
 }
 
 #middag h2 .text {
   position: relative;
   display: inline-block; /* This is necessary for the ::after to work correctly */
 }
-
 
 .alt-title p {
   font-size: 18px;
@@ -263,7 +260,6 @@ header .intro-text {
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
-  
 }
 .resande-meta {
   margin-top: 10px;
@@ -282,17 +278,6 @@ header .intro-text {
   padding-bottom: 15px;
 }
 
-#resandes h2 .text::after {
-  content: "";
-  display: block;
-  width: 100%; /* Full width of the text */
-  height: 0.1em; /* Relative to the text's font size */
-  background: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 0; /* Positioned at the bottom of the text */
-  left: 0; /* Positioned at the left of the text */
-}
-
 #resandes h2 .text {
   position: relative;
   display: inline-block; /* This is necessary for the ::after to work correctly */
@@ -306,4 +291,24 @@ header .intro-text {
   padding: 100px 0;
 }
 
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 2em;
+  background-color: #f5f5f5;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+}
 
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 0.5em;
+  color: #333;
+}

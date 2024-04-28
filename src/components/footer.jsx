@@ -6,7 +6,8 @@ export const Footer = (props) => {
       <div className="container">
         <div className="resande-title">
           <i>
-            Hemsidan kommer uppdateras med vår önskelista och eventuell vidare information närmre vigseln.
+            Hemsidan kommer uppdateras med vår önskelista och eventuell vidare
+            information närmre vigseln.
           </i>
         </div>
       </div>
