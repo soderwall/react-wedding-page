@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c39c1b1.css",
-    "main.js": "/static/js/main.39ad1ada.js",
-    "static/js/453.586ddade.chunk.js": "/static/js/453.586ddade.chunk.js",
+    "main.css": "/static/css/main.a2d62a3d.css",
+    "main.js": "/static/js/main.5ccdbbd2.js",
     "static/media/kyrkan.jpg": "/static/media/kyrkan.65f92b79be25fa18d72e.jpg",
-    "static/media/bg.png": "/static/media/bg.085c1d27108839038eed.png",
+    "static/media/bg.jpeg": "/static/media/bg.e9317dc3f3131d188e0c.jpeg",
     "static/media/kalfarvei_37.png": "/static/media/kalfarvei_37.bd08ba50e24a391f330e.png",
     "static/media/02.png": "/static/media/02.70517211863efd2d4459.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/01.jpeg": "/static/media/01.6181debed6b2fc5ddb15.jpeg",
+    "static/media/church.svg": "/static/media/church.f0f3686fff1e8ee4ed850829e9916e40.svg",
     "index.html": "/index.html",
-    "main.0c39c1b1.css.map": "/static/css/main.0c39c1b1.css.map",
-    "main.39ad1ada.js.map": "/static/js/main.39ad1ada.js.map",
-    "453.586ddade.chunk.js.map": "/static/js/453.586ddade.chunk.js.map"
+    "main.a2d62a3d.css.map": "/static/css/main.a2d62a3d.css.map",
+    "main.5ccdbbd2.js.map": "/static/js/main.5ccdbbd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c39c1b1.css",
-    "static/js/main.39ad1ada.js"
+    "static/css/main.a2d62a3d.css",
+    "static/js/main.5ccdbbd2.js"
   ]
 }
