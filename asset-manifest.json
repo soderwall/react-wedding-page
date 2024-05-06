@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a4ee8a63.css",
-    "main.js": "/static/js/main.fbb611bd.js",
+    "main.js": "/static/js/main.80580aec.js",
     "static/media/wedding_couple.png": "/static/media/wedding_couple.70f13fe97b0ea902df93.png",
     "static/media/kyrka_alt.png": "/static/media/kyrka_alt.fb7cdffab5e3f488c9aa.png",
     "static/media/bg.jpeg": "/static/media/bg.e9317dc3f3131d188e0c.jpeg",
@@ -11,10 +11,10 @@
     "static/media/01.jpeg": "/static/media/01.6181debed6b2fc5ddb15.jpeg",
     "index.html": "/index.html",
     "main.a4ee8a63.css.map": "/static/css/main.a4ee8a63.css.map",
-    "main.fbb611bd.js.map": "/static/js/main.fbb611bd.js.map"
+    "main.80580aec.js.map": "/static/js/main.80580aec.js.map"
   },
   "entrypoints": [
     "static/css/main.a4ee8a63.css",
-    "static/js/main.fbb611bd.js"
+    "static/js/main.80580aec.js"
   ]
 }
