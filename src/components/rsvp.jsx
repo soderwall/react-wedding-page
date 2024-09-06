@@ -19,26 +19,28 @@ export const Rsvp = (props) => {
           <div className="bas-title">
             <h2 className="center-text bas-h2">
               <span className="text">
-                RSVP{" "}
+                Önskelista{" "}
                 <i class="bi bi-envelope-heart style={{color: 'black'}}"></i>
               </span>
             </h2>
 
             <p>
-              Vi ber ALLA svara INDIVIDUELLT på frågeformuläret:&nbsp;
+              Vi har samlat våra önskemål på Illums Bolighus. Klicka på länken
+              för att se vår &nbsp;
               <a
-                href="https://forms.gle/gKdWnwS2RHGWRFoTA"
+                href="https://www.illumsbolighus.no/onskeliste/andre?id=089fbc5858d09b68c908996f32"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                HÄR
+                önskelista
               </a>
             </p>
             <p>
-              Vi älskar era fina barn, men denna dagen önskar vi att fira utan
-              (självklart undantag för dem allra minsta).
+              Om ni hellre önskar skänka ett bidrag till vår smekmånad, kan ni
+              skicka valfritt belopp via Swish eller Vipps. Information om hur
+              ni gör detta kommer att finnas tillgängligt under bröllopsdagen på
+              plats.
             </p>
-            <p>TOAST MADAM/MASTER KOMMER INOM KORT</p>
           </div>
         </div>
       </div>
